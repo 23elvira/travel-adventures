@@ -1,0 +1,105 @@
+/*Giving whole body size*/
+body{margin:0;
+background-color: rgb(244, 244, 237);}
+
+/*Header part is getting styled (sticky position,color,links)*/
+
+.main{background-color: rgb(48, 43, 43);
+top:0;
+padding:5px;
+border:0;
+position:sticky;
+color:white;
+text-align: center;}
+
+.welcome{font-size: 2.5rem;
+font-family: Arial, Helvetica, sans-serif;
+height: 20px;}
+
+ul{list-style-type: none;
+width:100%;
+text-align:center;
+padding:0;}
+li{display: inline-block;
+    margin:6px;}
+a{text-decoration: none;
+color:white;
+font-size:17px;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*SEction Learn more*/
+
+.beginner{text-align: center;
+    color:rgb(9, 20, 54);
+  
+}
+.discover{font-size: 3rem;
+font-family: Arial, Helvetica, sans-serif;}
+.explore{color:rgb(9, 20, 54);
+font-size:1.35rem;}
+
+a#learn{color:white;
+    border: o.5px solid rgb(227, 105,53);
+    background-color: rgb(227, 105, 53);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding:9px;
+font-size:large;}
+    a#learn:hover{background-color: orangered;
+    color:whitesmoke}
+
+/*Destination part*/
+
+h2{font-size:2.50rem;}    
+img{width: 420px;
+height: 350px;
+border-radius: 5px;}
+
+h3{font-size: 1.50rem;}
+p{font-size: 1.1rem;}
+
+div{display:inline-block;
+    background-color: white;
+box-sizing:content-box;
+padding:20px;
+border-radius: 5px;
+margin: 25px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+width:30%;
+}
+
+/*Contacts*/
+
+.newsletter{background-color: rgb(227, 105, 53);
+color:white;
+padding:20px 0px;}
+
+input,button{display: inline-block;}
+input{width:700px;
+    height:30px;
+background-color:white;
+border-radius: 5px 0 0 5px;
+padding-right:0;
+}
+.explore1{font-size:1.35rem;}
+button{ background-color:rgb(48, 43, 43); 
+    color:white;
+    font-size: 0.9rem;
+    height:36px;
+    width:140px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    padding-left:0;
+}
+
+/*footer*/
+    
+footer{background-color: rgb(48, 43, 43);
+color:white;
+padding:20px;}
+
+
+
